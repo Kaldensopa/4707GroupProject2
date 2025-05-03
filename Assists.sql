@@ -1,1 +1,7 @@
-
+CREATE TABLE Assists (
+    CID INT,
+    EID INT,
+    PRIMARY KEY (CID, EID),
+    FOREIGN KEY (CID) REFERENCES Customers(CID),
+    FOREIGN KEY (EID) REFERENCES Employees(EID)
+);

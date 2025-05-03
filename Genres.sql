@@ -1,1 +1,6 @@
-
+CREATE TABLE Genres (
+    BID INT,
+    Genre VARCHAR(50),
+    PRIMARY KEY (BID, Genre),
+    FOREIGN KEY (BID) REFERENCES Books(BID)
+);

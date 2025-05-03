@@ -1,1 +1,7 @@
-
+CREATE TABLE WrittenBy (
+    BID INT,
+    AID INT,
+    PRIMARY KEY (BID, AID),
+    FOREIGN KEY (BID) REFERENCES Books(BID),
+    FOREIGN KEY (AID) REFERENCES Authors(AID)
+);
