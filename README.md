@@ -1,7 +1,7 @@
 # 📚 BookstoreDB SQL Scripts
 
 **Created by:** Tenzin Chonyi, Kalden Sopa, Tenzin Gendun  
-**x500:** chony003, sopa0002, gendu002
+**x500:** chony003, sopa0002, gendu002 
 **Course:** CSCI 4707 – Group Project 2  
 
 ---
